@@ -77,7 +77,13 @@ PrefabInstance:
       addedObject: {fileID: 65771640800139494}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fb5d444ccccf78e41b7a24afba0752ae, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 4872987551253743976}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fb5d444ccccf78e41b7a24afba0752ae, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 2887566276786989273}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fb5d444ccccf78e41b7a24afba0752ae, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -5103312824006121146}
   m_SourcePrefab: {fileID: 100100000, guid: fb5d444ccccf78e41b7a24afba0752ae, type: 3}
 --- !u!1 &969533697683388906 stripped
 GameObject:
@@ -105,6 +111,33 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.35
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &4872987551253743976
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969533697683388906}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &2887566276786989273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,3 +152,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gibs:
   - {fileID: 4878334349204842942, guid: de54662e3e885054b84bde7cd34ec85a, type: 3}
+--- !u!114 &-5103312824006121146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969533697683388906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8f670668416ae64c85fd84fa2254060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidBody: {fileID: 4872987551253743976}
+  minForceAmount: 10
+  maxForceAmount: 20
