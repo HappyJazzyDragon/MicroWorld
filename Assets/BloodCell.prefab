@@ -60,6 +60,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 78946955128268989, guid: fb5d444ccccf78e41b7a24afba0752ae, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cfa5f60c87ad4e44b9488ee3438e3b67, type: 2}
     - target: {fileID: 919132149155446097, guid: fb5d444ccccf78e41b7a24afba0752ae, type: 3}
       propertyPath: m_Name
       value: BloodCell

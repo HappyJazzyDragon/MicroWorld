@@ -68,6 +68,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MalariaCell
       objectReference: {fileID: 0}
+    - target: {fileID: 4646680809348212222, guid: 785dd757ea2ca744ba2673265bd7326a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 209a4d2769c58524993beacd7c94dfa3, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
