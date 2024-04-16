@@ -153,8 +153,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectsToSpawn:
-  - {fileID: 1032103666494806988, guid: 434abf302486779498bceded499df92d, type: 3}
-  - {fileID: 1400552074702622871, guid: a512b6c1f5500e8418d4985ff207d891, type: 3}
+  - {fileID: 969533697683388906, guid: 8ef3a81b78dd5b4488f156311300da94, type: 3}
+  - {fileID: 2838282894024160153, guid: 4d9cd2304694e514180fbb6343f73298, type: 3}
   minSpawnRadius: 5
   maxSpawnRadius: 15
   numberOfObjectsToSpawn: 30
